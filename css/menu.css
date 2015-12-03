@@ -1,0 +1,35 @@
+a:link {color: #ffffff; text-decoration: none} /* 未访问的链接 */
+a:visited {color: #ffffff; text-decoration: none} /* 已访问的链接 */
+a:hover {color: #FFA34F; text-decoration: underline} /* 鼠标在链接上 */
+a:active {color: #FFA34F; text-decoration: underline} /* 激活链接 */
+th {
+	background-color: #006699;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFA34F;
+	padding: 4px;
+}
+td {
+	background-color: #77B2D8;
+	border-top-color: #77B2D8;
+	border-right-color: #77B2D8;
+	border-bottom-color: #77B2D8;
+	border-left-color: #77B2D8;
+	padding: 4px;
+	font-size: 9pt;
+	color: #ffffff;
+	margin: 1px;
+}
+body {
+	scrollbar-face-color:#2B7ABA; 
+  scrollbar-shadow-color:#246397; 
+  scrollbar-highlight-color:#38A4FB; 
+  scrollbar-darkshadow-color:#1D5079; 
+  scrollbar-track-color:5AA8DA; 
+  scrollbar-arrow-color:#1D5079
+}
+.menu{
+  background-color: #3699D9;
+}

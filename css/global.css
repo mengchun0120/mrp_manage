@@ -1,0 +1,114 @@
+a:link {color: #000000; text-decoration: none} /* 未访问的链接 */
+a:visited {color: #000000; text-decoration: none} /* 已访问的链接 */
+a:hover {color: #333333; text-decoration: underline} /* 鼠标在链接上 */
+a:active {color: #333333; text-decoration: underline} /* 激活链接 */
+
+
+body {
+	font-family: "宋体";
+	font-size: 9pt;
+	line-height: 150%;
+	color: #000000;
+	background-color: #CCCCCC;
+	background-position: center top;
+	scrollbar-face-color:#2B7ABA; 
+  scrollbar-shadow-color:#246397; 
+  scrollbar-highlight-color:#38A4FB; 
+  scrollbar-darkshadow-color:#1D5079; 
+  scrollbar-track-color:5AA8DA; 
+  scrollbar-arrow-color:#1D5079
+  border: 3px groove #5AA8DA;
+  border: 3px groove #5AA8DA;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+}
+a {
+}
+table {
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #3366CC;
+	border-right-color: #3366CC;
+	border-bottom-color: #3366CC;
+	border-left-color: #3366CC;
+	border: 1px solid #006699
+	margin: 1px;
+}
+th {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+	background-color: #D1D7DC;
+	text-align: center;
+	border-top-color: #D1D7DC;
+	border-right-color: #D1D7DC;
+	border-bottom-color: #D1D7DC;
+	border-left-color: #D1D7DC;
+	padding: 2px;
+	vertical-align: middle;
+	margin: 1px;
+	height: 25px;
+}
+td {
+	background-color: #EFEFEF;
+	border-top-color: #EFEFEF;
+	border-right-color: #EFEFEF;
+	border-bottom-color: #EFEFEF;
+	border-left-color: #EFEFEF;
+	padding: 2px;
+	font-size: 9pt;
+	color: #000000;
+	margin: 1px;
+	height: 25px;
+}
+.table_title {
+	background-color: #006699;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFA34F;
+	margin: 1px;
+}
+.table_double {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../img/table_double.gif);
+	text-align: center;
+	border-top-color: #D1D7DC;
+	border-right-color: #D1D7DC;
+	border-bottom-color: #D1D7DC;
+	border-left-color: #D1D7DC;
+	padding: 2px;
+	vertical-align: middle;
+	margin: 1px;
+	width: 175px
+}
+input,textarea,select {
+	background-color: #2B7ABA;
+	color: White;
+	border: 1px solid #00476B;
+	}
+
+.table_button {
+	background-color: #CCCCCC;
+	border: none;
+	padding: 0px 0px 0px 0px;
+}
+
+.td_button {
+	background-color: #CCCCCC;
+	border: none;
+	padding: 0px 0px 0px 0px;
+}

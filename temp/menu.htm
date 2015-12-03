@@ -1,0 +1,75 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<body  background="image/menu_2.gif" bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="image/menu_1.gif" width="214" height="28"></td>
+  </tr>
+  <tr align="center">
+    <td><a href="day_payout/main.asp" target="right" onClick="MM_nbGroup('down','group1','day_payout','image/day_payout_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','day_payout','image/day_payout_a.gif','image/day_payout_a.gif',1)"><img src="image/day_payout.gif" width="150" height="50" border="0" name="day_payout"></a><br>
+      <a href="month_income/main.asp" target="right" onClick="MM_nbGroup('down','group1','month_income','image/month_income_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','month_income','image/month_income_a.gif','image/month_income_a.gif',1)"><img src="image/month_income.gif" width="150" height="50" border="0" name="month_income"></a><br>
+      <a href="month_budget/main.asp" target="right" onClick="MM_nbGroup('down','group1','month_budget','image/month_budget_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','month_budget','image/month_budget_a.gif','image/month_budget_a.gif',1)"><img src="image/month_budget.gif" width="150" height="50" border="0" name="month_budget"></a><br>
+      <a href="love_bankroll/main.asp" target="right" onClick="MM_nbGroup('down','group1','love_bankroll','image/love_bankroll_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','love_bankroll','image/love_bankroll_a.gif','image/love_bankroll_a.gif',1)"><img src="image/love_bankroll.gif" width="150" height="50" border="0" name="love_bankroll"></a><br>
+      <a href="stat_contrast/main.asp" target="right" onClick="MM_nbGroup('down','group1','stat_contrast','image/stat_contrast_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','stat_contrast','image/stat_contrast_a.gif','image/stat_contrast_a.gif',1)"><img src="image/stat_contrast.gif" width="150" height="50" border="0" name="stat_contrast"></a><br>
+      <a href="awoke/main.asp" target="right" onClick="MM_nbGroup('down','group1','awoke','image/awoke_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','awoke','image/awoke_a.gif','image/awoke_a.gif',1)"><img src="image/awoke.gif" width="150" height="50" border="0" name="awoke"></a><br>
+      <a href="sys_manage/main.asp" target="right" onClick="MM_nbGroup('down','group1','sys_manage','image/sys_manage_a.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','sys_manage','image/sys_manage_a.gif','image/sys_manage_a.gif',1)"><img src="image/sys_manage.gif" width="150" height="50" border="0" name="sys_manage"></a><br></td>
+  </tr>
+  <tr>
+    <td><img src="image/menu_3.gif" width="214" height="39"></td>
+  </tr>
+</table>
+</body>
+</html>

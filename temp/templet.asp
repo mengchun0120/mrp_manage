@@ -1,0 +1,315 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="../css/global.css" rel="stylesheet" type="text/css">
+<title></title>
+</head>
+<body topmargin=0 leftmargin=0>
+<table width="100%" cellspacing=1>
+	<tr>
+  	<td class="table_title" colspan="9">表格头部</td>
+  </tr>
+  <tr>
+    <th>序号</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+</table>
+<p>
+<table width="100%" cellspacing=1>
+	<tr>
+  	<td class="table_title" colspan="9">表格头部</td>
+  </tr>
+  <tr>
+    <th width="120" class="table_double">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表行项<br>表中项<br>表列项&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+    <th>列数据名称</th>
+  </tr>
+  <tr>
+    <th>行数据名称</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>行数据名称</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>行数据名称</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>行数据名称</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>a</th>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+    <td>d</td>
+  </tr>
+</table>
+<p>
+<table width="100%" cellspacing=1>
+	<tr>
+  	<td class="table_title" colspan="4">表格头部</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td><input type="text" name="textfield"></td>
+    <th>数据名称</th>
+    <td><textarea name="textarea"></textarea></td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>
+    	<input type="checkbox" name="checkbox" value="checkbox">
+      <input type="checkbox" name="checkbox" value="checkbox">
+      <input type="checkbox" name="checkbox" value="checkbox">
+    </td>
+    <th>数据名称</th>
+    <td>
+    	<input type="radio" name="radiobutton" value="radiobutton">
+      <input type="radio" name="radiobutton" value="radiobutton">
+      <input type="radio" name="radiobutton" value="radiobutton">
+    </td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td><input type="submit" value="提 交"></td>
+    <th>数据名称</th>
+    <td>
+    	<select name="select">
+      <option>a</option>
+      <option>s</option>
+      <option>d</option>
+      <option>f</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+  <tr>
+    <th>数据名称</th>
+    <td>d</td>
+    <th>数据名称</th>
+    <td>d</td>
+  </tr>
+</table>
+</body>
+</html>
